@@ -5,7 +5,7 @@ Instructions:
 	 
     -“NFL_data.csv”
 	 
-    -“NFL Function.R”
+    -“NFL_Function.R”
 2.	Change your directory to wherever you downloaded the files
 3.	Copy and paste this code in order to import your data: NFL <-read.csv("NFL_data.csv", header=T)
 4.	Copy and paste this code to upload the function you will use to run the model: source('NFL Function.R')
