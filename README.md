@@ -7,6 +7,8 @@ Instructions:
 	 
     -“NFL_Function.R”
 2. Open R
+
+    -If you have not already dowloaded R to your device, click https://cran.r-project.org/mirrors.html and select an area in which to download from. Then select one of the download links at the top depending on what device you have (Windows, Mac, etc.). Once this is complete, it will be downloaded to your computer and all you have to do is open R. 
 3. Change your directory in R to wherever you downloaded the files by pressing under the File Tab in the top left corner 
 4. Copy and paste this code in R in order to import your data: NFL <-read.csv("NFL_data.csv", header=T)
 5. Copy and paste this code into R to upload the function you will use to run the model: source('NFL_Function.R')
