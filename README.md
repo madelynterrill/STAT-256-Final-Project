@@ -19,3 +19,6 @@ Instructions:
     
       -Example: If you want to see who would win between the Chicago Bears and the Buffalo Bills, just type in Winner("Bears","Bills")
 8. This will output the winning team! If you would like to try again, just go back to Step 7
+
+
+My predictive model is a regression model in which it predicts the probability with the dependent variable (Points per Game - Opponents Points per Game). This model yields an R-squared value of 0.7996, which is good, but not perfect. This model will not always be correct, and should not be used to determine bets, etc. However, it does give a somewhat accurate representation of the winner of a game based on the variables Passing Attempts, Yards per Passing Attempt, Passing Yards, Interceptions made, and Wins (all from the 2021 NFL Season Stats). 
